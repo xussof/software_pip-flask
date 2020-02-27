@@ -1,0 +1,6 @@
+---
+- name: Installing flask packages using pip
+  become: true
+  pip:
+    name: "flask"
+    state: present
