@@ -4,3 +4,4 @@
   pip:
     name: "flask"
     state: present
+    executable: pip3.3
